@@ -65,6 +65,6 @@ stages:
              azureSubscription: 'S2s-Service'
              appType: 'webAppContainer'
              WebAppName: 's2s-back-stage'
-             DockerNamespace: 'S2sStage'
+             DockerNamespace: 's2sstage.azurecr.io'
              DockerRepository: 'back-stage'
              DockerImageTag: '$(Build.BuildId)'
